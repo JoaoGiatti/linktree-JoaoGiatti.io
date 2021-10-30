@@ -10,3 +10,8 @@ header{
     border-color: #add8e6;
     box-shadow: 0px 8px 100px -10px #add8e6;
 }
+.container-foto_nome{
+    width: 60%;
+    height: 550px;
+    background-color: aliceblue;
+}
