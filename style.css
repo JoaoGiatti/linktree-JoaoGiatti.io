@@ -12,6 +12,17 @@ header{
 }
 .container-foto_nome{
     width: 60%;
-    height: 550px;
-    background-color: aliceblue;
+    height: 70vh;
+    position: absolute;
+    left: 20%;
+    top: 20vh;
+    background-color: #757575;
+}
+.container-sobre{
+    width: 80%;
+    height: 50vh;
+    position: absolute;
+    left: 10%;
+    top:95vh;
+    background-color: #757575;
 }
