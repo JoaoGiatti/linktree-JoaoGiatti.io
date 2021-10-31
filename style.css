@@ -12,17 +12,39 @@ header{
 }
 .container-foto_nome{
     width: 60%;
-    height: 70vh;
+    height: 50vh;
     position: absolute;
     left: 20%;
     top: 20vh;
     background-color: #757575;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.foto{
+    width: 27vh;
+    height: 27vh;
+    background-color: #909090;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #f3b885;
+    box-shadow: 0px 8px 100px  -30px #f3b885;
+    overflow: hidden;
+}
+.foto-perfil{
+    border-radius: 50%;
+}
+.nome{
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10%;
 }
 .container-sobre{
     width: 80%;
     height: 50vh;
     position: absolute;
     left: 10%;
-    top:95vh;
+    top:75vh;
     background-color: #757575;
 }
