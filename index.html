@@ -1,23 +1,71 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Currículo João Giatti</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
-    <body>
-        <header>
-        </header>
-        <div class="container-foto_nome">
-            <div class="foto">
-                <img src="foto-perfil.jpg" width="100%" height="100%" class="foto-perfil">
-            </div>
-            <div class="nome">
-                <h1>João Pedro Duarte Giatti</h1>
-            </div>
-        </div>
-        <div class="container-sobre">
+<html lang="pt-br" class="">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Linktree João Giatti</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="profile">
+        <img src="assets/avatar.jpeg" alt="Minha foto!!" class="avatar"/>
+        <p>@JoãoGiatti</p>
+      </div>
+        <div id="switch" onclick="toggleMode()">
+          <button>
+            
+          </button>
+          <span>
 
+          </span>
         </div>
-    </body>
+      <div>
+        <ul>
+          <li>
+            <a href="#" target="_blank">Inscrever-se no NLW</a>
+          </li>
+          <li>
+            <a href="#" target="_blank">Baixar meu E-Book</a>
+          </li>
+          <li>
+            <a href="#" target="_blank">Ver meu portifólio</a>
+          </li>
+          <li>
+            <a href="#" target="_blank">Conheça o Explorer</a>
+          </li>
+        </ul>
+        <div id="social-links">
+          <a href="https://github.com/" target="_blank">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+          <a href="https://instagram.com/" target="_blank">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+          <a href="https://youtube.com/" target="_blank">
+            <ion-icon name="logo-youtube"></ion-icon>
+          </a>
+          <a href="https://linkedin.com/" target="_blank">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </div>
+        <footer>Feito com ♥ por mim!</footer>
+      </div>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="script.js"></script>
+  </body>
 </html>
