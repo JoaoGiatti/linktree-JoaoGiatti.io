@@ -10,7 +10,7 @@
   - JavaScript
   - Git e github
   - Figma
-  
+
 </p>
 
 ## 🚀 Projeto
@@ -20,7 +20,7 @@
 <h2 align="center">
   Quer um para a sua conta pessoal?
   <button style="background:#4863F7; border-radius: 999px; padding: 10px; margin: 24px 0; border: 2px solid #202020; color: white;">
-    Me mande uma mensagem!
+    <a href="https://wa.link/j57kqg">Me mande uma mensagem!</a>
   </button>
 </h2>
 <p align="center">
